@@ -1,0 +1,109 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow, blue);
+  background-position: cover !important;
+  background-repeat: no-repeat;
+  width: auto;
+  overflow-y: hidden;
+}
+
+.container-fluid {
+  padding: 0%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font: 900 3em "Raleway", san-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-top: 30px;
+}
+
+input {
+  height: 40px;
+  width: 100px;
+}
+
+#button,
+input {
+  margin: 30px;
+}
+
+#button {
+  text-transform: capitalize;
+  font: 400 1.5em "Raleway", san-serif;
+}
+
+h3 {
+  font: 900 1.5em "Raleway", san-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+  margin: 30px;
+}
+
+/* Small devices (landscape phones, 276px and up) */
+@media (min-width: 276px) {
+  h1 {
+    font: 500 2em "Raleway", san-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    /* letter-spacing: 0.4em; */
+  }
+
+  body {
+    font: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow, blue);
+    background-position: cover !important;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font: 600 3em "Raleway", san-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    /* letter-spacing: 0.4em; */
+  }
+
+  body {
+    font: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow, blue);
+    background-position: cover !important;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+  h1 {
+    font: 600 3.5em "Raleway", san-serif;
+  }
+} */
